@@ -12,14 +12,14 @@
 			<limit_max  />
 			<rotate x="0" y="0" z="0" />
 			<texture color="./textures/space/2k_sun.bmp"/>
-			<checker_A />
-			<checker_B />
-			<checker_width />
-			<checker_length />
-			<noise_A />
-			<noise_B />
-			<noise_octaves />
-			<noise_persistence />
+			<checker_A r="1" g="0" b="0"/>
+			<checker_B r="0" g="1" b="0"/>
+			<checker_width value="12"/>
+			<checker_length value="12"/>
+			<noise_A r="1" g="0" b="0"/>
+			<noise_B r="0" g="1" b="0"/>
+			<noise_octaves value="3"/>
+			<noise_persistence value="0.3"/>
 		</sphere>
     <sphere name="Mercury" >
 			<ray value="0.1" />
